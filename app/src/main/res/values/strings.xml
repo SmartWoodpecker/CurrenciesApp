@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CurrenciesApp</string>
+    <string name="Date">Date</string>
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+    <string name="course">Course</string>
+    <string name="main">Главная</string>
+</resources>
