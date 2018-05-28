@@ -11,25 +11,25 @@ import java.util.Date;
 
 public class DateModelImpl implements DateModel {
     private static final int ITEM_COUNT_ON_LOAD = 19;
-    private ArrayList<Date> modeldateList = new ArrayList<>();
-    private Integer itemcount;
+    private ArrayList<Date> modelDateList = new ArrayList<>();
+    private Integer itemCount;
 
     @Override
     public void setItemcount(Integer itemcount) {
-        this.itemcount = itemcount;
+        this.itemCount = itemcount;
     }
 
     public ArrayList<Date> getModeldateList() {
-        return modeldateList;
+        return modelDateList;
     }
 
     @Override
     public void addDateToList() {
-        for (int i = itemcount; i < itemcount + ITEM_COUNT_ON_LOAD; i++) {
+        for (int i = itemCount; i < itemCount + ITEM_COUNT_ON_LOAD; i++) {
             Calendar cal = Calendar.getInstance();
             cal.add(Calendar.DATE, -i);
             Date date = cal.getTime();
-            modeldateList.add(date);
+            modelDateList.add(date);
         }
     }
 }
