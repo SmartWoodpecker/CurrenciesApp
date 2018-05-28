@@ -1,12 +1,10 @@
 package rudenko.andrey.currenciesapp.presentation.presenter;
 
-import android.content.Intent;
 
 import com.arellomobile.mvp.InjectViewState;
 import com.arellomobile.mvp.MvpPresenter;
 
-import rudenko.andrey.currenciesapp.mvpmodels.DataManager;
-import rudenko.andrey.currenciesapp.mvpmodels.DataManagerImpl;
+
 import rudenko.andrey.currenciesapp.mvpmodels.DateDetailsModelImpl;
 import rudenko.andrey.currenciesapp.mvpmodels.DateDetailsModel;
 import rudenko.andrey.currenciesapp.presentation.view.DateDetailsView;
